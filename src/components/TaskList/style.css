@@ -1,0 +1,43 @@
+.container{
+    background-color: lightgrey;
+    padding: 1rem;
+}
+.btn{
+    background-color: mediumslateblue;
+    color: white;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    margin-bottom: 4rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-weight: bold;
+}
+span{
+    color: grey;
+}
+p{
+    font-weight: bold;
+}
+.pen{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.trash{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.taskState{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    border-radius: 0.5rem;
+    color: grey;
+}
+.row{
+    border-radius: 2rem;
+}

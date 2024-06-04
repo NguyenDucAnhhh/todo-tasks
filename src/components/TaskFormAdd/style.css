@@ -1,0 +1,81 @@
+.add-form{
+    padding-left: 1rem;
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.add-form h3{
+    font-weight: bold;
+    padding-top: 0.5rem;
+}
+.close{
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.add-form h5{
+    padding-top: 0.5rem;
+    color: grey;
+}
+label{
+    margin-left: 0.8rem;
+    width: 100%;
+}
+input[type="text"]{
+    width: 95%;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid grey;
+}
+.priority-buttons{
+    margin: 0.8rem;
+}
+.priority-buttons button{
+    padding: 0.2rem 1.5rem;
+    border: 1px solid;
+    background: none;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.add{
+    display: flex;
+    justify-content: end;
+    border: none;
+    padding: 0.2rem 1rem;
+    margin-top: 0.8rem;
+}
+
+.btnH{
+    color: red;
+    border-color: red;
+    border-radius: 0.5rem;
+}
+.btnM{
+    color: yellow;
+    border-color: yellow;
+    border-radius: 0.5rem;
+}
+.btnL{
+    color: green;
+    border-color: green;
+    border-radius: 0.5rem;
+}
+.btnH:hover{
+    background-color: red;
+    color: white;
+    border-radius: 0.5rem;
+}
+.btnM:hover{
+    background-color: yellow;
+    color: white;
+    border-radius: 0.5rem;
+}
+.btnL:hover{
+    background-color: green;
+    color: white;
+    border-radius: 0.5rem;
+}

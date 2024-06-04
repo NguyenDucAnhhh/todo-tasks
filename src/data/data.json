@@ -1,0 +1,23 @@
+[
+    {
+      "taskId": 1,
+      "taskContent": "Go to gym",
+      "taskPriority": "High",
+      "taskState": "To do",
+      "color": "text-danger"
+    },
+    {
+      "taskId": 2,
+      "taskContent": "Read a book",
+      "taskPriority": "Low",
+      "taskState": "Process",
+      "color": "text-success"
+    },
+    {
+      "taskId": 3,
+      "taskContent": "Go to market",
+      "taskPriority": "Medium",
+      "taskState": "In Progress",
+      "color": "text-warning"
+    }
+  ]
